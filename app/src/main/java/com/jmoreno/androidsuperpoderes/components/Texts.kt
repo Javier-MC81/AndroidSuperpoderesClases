@@ -13,7 +13,11 @@ import androidx.compose.ui.unit.sp
 @Composable
 
 fun myText(){
-    Text(text = "Hola", fontSize = 20.sp, color = Color.Blue, fontWeight = FontWeight.Bold, textDecoration = TextDecoration.Underline )
+    Text(text = "Hola",
+        fontSize = 20.sp,
+        color = Color.Blue,
+        fontWeight = FontWeight.Bold,
+        textDecoration = TextDecoration.Underline )
 
 
 }
@@ -21,7 +25,8 @@ fun myText(){
 @Composable
 
 fun myText2(){
-    Text(text = "Hola", style = MaterialTheme.typography.titleLarge.copy(color = Color.Blue)
+    Text(text = "Hola",
+        style = MaterialTheme.typography.titleLarge.copy(color = Color.Blue)
     )
 
 
